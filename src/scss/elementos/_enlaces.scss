@@ -1,0 +1,13 @@
+.enlaces {
+  @include display-flex(column, center, center);
+  & > * + * {
+    margin-top: 1rem; /* 16 / 16 */
+  }
+  .subtitulo {
+    text-align: center;
+
+    a {
+      color: var(--col-primario);
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.contrasena {
+  width: 100%;
+
+  @include display-flex(column, flex-start, stretch);
+
+  & > * + * {
+    margin-top: 0.625rem; /* 10 / 16 */
+  }
+
+  .fila {
+    width: auto;
+    @include display-flex(row, space-between, center);
+    padding: 0.5rem 1rem; /* 8 / 16 , 16 / 16 */
+    border: solid 1px var(--col-primario);
+    border-radius: 1rem; /* 16 / 16 */
+    background-color: var(--col-blanco);
+    input {
+      width: 80%;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+    }
+    input[type="file"] {
+      display: none;
+    }
+    .boton {
+      @include subtitulo();
+      width: auto;
+      color: var(--col-primario);
+    }
+  }
+}

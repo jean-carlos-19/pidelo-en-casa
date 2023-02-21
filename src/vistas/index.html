@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <main id="incia-sesion">
+            <div class="portada portada-inicia-sesion"></div>
+
+            <form class="formulario formulario-inicia-sesion">
+                <div class="cabecera">
+                    <h1 class="cabecera-1">Inicia Sesión</h1>
+                    <h4 class="cabecera-4">Hola! es un gusto volverte a ver.</h4>
+                </div>
+
+                <div class="entradas">
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="usuario">Usuario</label>
+                        <input class="cuerpo-defecto-1" type="text" name="usuario" id="usuario" placeholder="placeholder" />
+                    </div>
+
+                    <div class="contrasena contrasena-entradas">
+                        <label class="cabecera-4" for="contrasena">Contraseña</label>
+                        <div class="fila">
+                            <input
+                                class="cuerpo-defecto-1"
+                                type="password"
+                                name="contrasena"
+                                id="contrasena"
+                                placeholder="placeholder"
+                            />
+                            <button class="boton" id="mostrar-contrasena">Mostrar</button>
+                        </div>
+                    </div>
+
+                    <input
+                        class="btn-enviar btn-enviar__desabilitado"
+                        type="submit"
+                        value="Entrar"
+                        id="btn-enviar-inicia-sesion"
+                    />
+                </div>
+                <div class="enlaces">
+                    <p class="subtitulo">No tienes una cuenta? <a href="./registrate.html"> Create una ahora </a></p>
+                    <a class="subtitulo" href="">Has olvidado tu contraseña?</a>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

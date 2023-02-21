@@ -1,0 +1,13 @@
+.cerrar-sesion {
+  position: absolute;
+  top: 3.69rem;
+  right: 0;
+  .cabecera-4 {
+    padding: 1rem;
+    background-color: var(--col-primario);
+  }
+}
+
+.cerrar-sesion__ocultar {
+  display: none;
+}

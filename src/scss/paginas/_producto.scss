@@ -1,0 +1,33 @@
+#producto {
+  padding: 0 0 1rem 0;
+  margin: 0 auto;
+  height: auto;
+  max-width: 90rem; /* 1440 / 16 */
+  max-height: 64rem; /* 1024 / 16 */
+
+  @include display-flex(column, flex-start, center);
+  & > * + * {
+    margin-top: 3.625rem; /* 58/16 */
+  }
+
+  .cabecera-producto {
+    width: 100%;
+    padding: 1rem 2rem; /* 16 / 16 , 16 / 32 */
+    @include display-flex(row, flex-start, center);
+    background-color: var(--col-primario);
+
+    & > * + * {
+      margin-left: 1rem; /* 16 / 16 */
+    }
+
+    .retroceder {
+      color: var(--col-neu-05);
+    }
+    .cabecera-4 {
+      margin-top: 0;
+      width: 100%;
+      text-align: center;
+      color: var(--col-neu-05);
+    }
+  }
+}

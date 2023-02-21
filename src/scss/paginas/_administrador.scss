@@ -1,0 +1,22 @@
+#administrador {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 90rem; /* 1440 / 16 */
+  max-height: 64rem; /* 1024 / 16 */
+
+  & > * + * {
+    margin-top: 4.6875rem; /* 75/16 */
+  }
+
+  .cabecera-administrador {
+    padding: 0.5rem 2rem; /* 8 / 16 , 16 / 32 */
+    @include display-flex(row, flex-end, center);
+    background-color: var(--col-primario);
+    .cabecera-4 {
+      color: var(--col-neu-05);
+    }
+    & > * + * {
+      margin-left: 1rem; /* 16 / 16 */
+    }
+  }
+}

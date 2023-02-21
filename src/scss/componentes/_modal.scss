@@ -1,0 +1,27 @@
+.modal {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  background-color: var(--col-trans-osc-05);
+  @include display-flex(row, center, center);
+  visibility: hidden;
+
+  & > * + * {
+    margin-left: 1rem; /* 16 / 16 */
+  }
+
+  &.modal__aparece {
+    animation: muestra_mensaje_confirmacion 5s;
+  }
+
+  .cabecera-2 {
+    color: var(--col-neu-05);
+  }
+
+  img {
+    width: 75px;
+    height: 75px;
+  }
+}

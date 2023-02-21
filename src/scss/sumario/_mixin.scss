@@ -1,0 +1,79 @@
+@mixin display-flex($direccion, $principal, $secundario) {
+  display: flex;
+  flex-direction: $direccion;
+  justify-content: $principal;
+  align-items: $secundario;
+}
+
+// Paleta de colores
+@mixin colores {
+  // color primario
+
+  --col-primario: #4671d5;
+  --col-blanco: #ffffff;
+
+  // colores neutrales
+  --col-neu-05: #f2f2f2;
+
+  // colores de texto
+  --col-text-ligero: #9a9a9a;
+  --col-text-medio: #818181;
+  --col-text-oscuro: #282828;
+  --col-text-cabecera: #31405d;
+  --col-text-enlace: #be3044;
+
+  // colores de fondo
+  --col-fon-primario: #f5f1ea;
+  --col-fon-secundario: #27334a;
+  --col-fon-ayudante: #fafafa;
+
+  // Trasnparencia oscura
+  --col-trans-osc-05: rgba(0, 0, 0, 0.8);
+}
+
+// Estilo para las cabeceras
+@mixin cabeceras {
+  font-family: "Inter";
+  font-style: normal;
+  color: var(--col-text-oscuro);
+}
+@mixin cabecera-1 {
+  @include cabeceras();
+  font-weight: 900;
+  font-size: 3rem; /* 48 / 16 */
+  line-height: 3rem; /* 48 / 16 */
+}
+@mixin cabecera-2 {
+  @include cabeceras();
+  font-weight: 700;
+  font-size: 2.5rem; /* 40 / 16 */
+  line-height: 2.5rem; /* 40 / 16 */
+}
+@mixin cabecera-3 {
+  @include cabeceras();
+  font-weight: 500;
+  font-size: 2rem; /* 32 / 16 */
+  line-height: 2rem; /* 32 / 16 */
+}
+@mixin cabecera-4 {
+  @include cabeceras();
+  font-weight: 700;
+  font-size: 1.5rem; /* 24 / 16 */
+  line-height: 1.5rem; /* 24 / 16 */
+}
+
+// Fuentes
+
+@mixin cuerpo-defecto-1 {
+  @include cabeceras();
+  font-weight: 400;
+  font-size: 1.25rem; /* 20 / 16 */
+  line-height: 1.875rem; /* 30 / 16 */
+}
+
+@mixin subtitulo {
+  @include cabeceras();
+  font-weight: 500;
+  font-size: 1.25rem; /* 20 / 16 */
+  line-height: 1.5rem; /* 24 / 16 */
+}

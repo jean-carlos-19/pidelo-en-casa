@@ -1,0 +1,21 @@
+:root {
+  @include colores();
+}
+.cabecera-1 {
+  @include cabecera-1();
+}
+.cabecera-2 {
+  @include cabecera-2();
+}
+.cabecera-3 {
+  @include cabecera-3();
+}
+.cabecera-4 {
+  @include cabecera-4();
+}
+.cuerpo-defecto-1 {
+  @include cuerpo-defecto-1();
+}
+.subtitulo {
+  @include subtitulo();
+}

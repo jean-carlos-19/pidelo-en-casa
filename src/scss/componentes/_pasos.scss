@@ -1,0 +1,4 @@
+.pasos {
+  width: inherit;
+  @include display-flex(row, space-between, center);
+}

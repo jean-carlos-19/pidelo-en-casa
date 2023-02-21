@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    </head>
+    <body>
+        <main id="registrate">
+            <div class="portada portada-registrate"></div>
+
+            <form class="formulario formulario-registrate">
+                <a href="./index.html">
+                    <img src="./assets/retroceder.png" alt="" />
+                </a>
+                <div class="cabecera cabecera-formulario">
+                    <h1 class="cabecera-1">Create una Cuenta</h1>
+                    <h4 class="cabecera-4">Gracias por preferirnos</h4>
+                </div>
+
+                <div class="pasos pasos-formulario">
+                    <button class="item" id="btn-vista-1">1</button>
+                    <button class="item item__desactivado" disabled id="btn-vista-2">2</button>
+                    <button class="item item__desactivado" disabled id="btn-vista-3">3</button>
+                    <button class="item item__desactivado" disabled id="btn-vista-4">4</button>
+                </div>
+
+                <div class="entradas entradas-formulario" id="entrada-1">
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="empresa">Empresa</label>
+                        <input class="cuerpo-defecto-1" type="text" name="empresa" id="empresa" placeholder="placeholder" />
+                    </div>
+
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="ruc">Ruc</label>
+                        <input class="cuerpo-defecto-1" type="text" name="ruc" id="ruc" placeholder="placeholder" />
+                    </div>
+
+                    <button class="btn-enviar btn-enviar__desabilitado" id="btn-entrada-1" disabled>Siguiente</button>
+                </div>
+
+                <div class="entradas entradas-2 entradas__ocultar entradas-formulario" id="entrada-2">
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="direccion">Direccion</label>
+                        <input class="cuerpo-defecto-1" type="text" name="direccion" id="direccion" placeholder="placeholder" />
+                    </div>
+
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="telefono-local">Telefono Local</label>
+                        <input
+                            class="cuerpo-defecto-1"
+                            type="text"
+                            name="telefono-local"
+                            id="telefono_local"
+                            placeholder="placeholder"
+                        />
+                    </div>
+
+                    <button class="btn-enviar btn-enviar__desabilitado" id="btn-entrada-2" disabled>Siguiente</button>
+                </div>
+
+                <div class="entradas entradas-3 entradas__ocultar entradas-formulario" id="entrada-3">
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="telefono">Telefono</label>
+                        <input class="cuerpo-defecto-1" type="text" name="telefono" id="telefono" placeholder="placeholder" />
+                    </div>
+
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="correo">Correo</label>
+                        <input class="cuerpo-defecto-1" type="text" name="correo" id="correo" placeholder="placeholder" />
+                    </div>
+
+                    <button class="btn-enviar btn-enviar__desabilitado" id="btn-entrada-3" disabled>Siguiente</button>
+                </div>
+
+                <div class="entradas entradas-4 entradas__ocultar entradas-formulario" id="entrada-4">
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="usuario">Usuario</label>
+                        <input class="cuerpo-defecto-1" type="text" name="usuario" id="usuario" placeholder="placeholder" />
+                    </div>
+
+                    <div class="contrasena contrasena-entradas">
+                        <label class="cabecera-4" for="contrasena">Contraseña</label>
+                        <div class="fila">
+                            <input
+                                class="cuerpo-defecto-1"
+                                type="password"
+                                name="contrasena"
+                                id="contrasena"
+                                placeholder="placeholder"
+                            />
+                            <button class="boton" id="mostrar-contrasena">Mostrar</button>
+                        </div>
+                    </div>
+
+                    <button class="btn-enviar btn-enviar__desabilitado" id="btn-entrada-4" disabled>Crear cuenta</button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

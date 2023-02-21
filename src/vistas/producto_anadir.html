@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    </head>
+    <body>
+        <main id="producto">
+            <header class="cabecera cabecera-producto">
+                <a class="retroceder" href="./administrador.html">
+                    <span class="material-icons">arrow_back</span>
+                </a>
+                <h4 class="cabecera-4">Producto</h4>
+            </header>
+
+            <ul class="lista lista-producto">
+                <li class="opcion opcion--activado">
+                    <a class="subtitulo" href="">Añadir</a>
+                </li>
+                <li class="opcion">
+                    <a class="subtitulo" href="./producto_actualizar.html">Actualizar</a>
+                </li>
+                <li class="opcion">
+                    <a class="subtitulo" href="./producto_eliminar.html">Eliminar</a>
+                </li>
+            </ul>
+
+            <form class="formulario formulario-producto">
+                <div class="entradas">
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="nombre"> Nombre</label>
+                        <input class="cuerpo-defecto-1" type="text" name="nombre" id="nombre" placeholder="placeholder" />
+                    </div>
+
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="costo">Costo</label>
+                        <input class="cuerpo-defecto-1" type="text" name="costo" id="costo" placeholder="placeholder" />
+                    </div>
+
+                    <div class="entrada entrada-entradas">
+                        <label class="cabecera-4" for="descripcion">Descripcion</label>
+                        <input
+                            class="cuerpo-defecto-1"
+                            type="text"
+                            name="descripcion"
+                            id="descripcion"
+                            placeholder="placeholder"
+                        />
+                    </div>
+
+                    <div class="contrasena contrasena-entradas">
+                        <label class="cabecera-4">Imagenes</label>
+                        <section for="imagenes" class="fila">
+                            <input
+                                class="cuerpo-defecto-1"
+                                type="file"
+                                name="imagenes"
+                                id="imagenes"
+                                placeholder="placeholder"
+                                accept="image/*"
+                            />
+                            <p id="informacion"></p>
+                            <label for="imagenes" class="boton"> Subir </label>
+                        </section>
+                    </div>
+
+                    <input
+                        class="btn-enviar btn-enviar__desabilitado"
+                        id="btn-enviar"
+                        type="submit"
+                        value="crear producto"
+                        disabled
+                    />
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+.entrada {
+  width: 100%;
+  @include display-flex(column, flex-start, stretch);
+
+  & > * + * {
+    margin-top: 0.625rem; /* 10 / 16 */
+  }
+}
+.entrada-boton {
+  & > * + * {
+    margin-left: 1rem; /* 16 / 16 */
+  }
+  @include display-flex(row, flex-end, center);
+}

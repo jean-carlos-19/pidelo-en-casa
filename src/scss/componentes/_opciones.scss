@@ -1,0 +1,38 @@
+.opciones {
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(360px, 1fr));
+  grid-gap: 6.25rem; /* 100 / 16 */
+  justify-items: center;
+  .cabecera-3 {
+    width: 22.5rem; /* 360 / 16 */
+    height: 11.25rem; /* 180 / 16 */
+    border-radius: 16px; /* 16 / 16 */
+    color: var(--col-neu-05);
+    @include display-flex(row, center, center);
+
+    &:nth-child(1) {
+      background-image: url(../assets/productos.png);
+    }
+
+    &:nth-child(2) {
+      background-image: url(../assets/servicios.png);
+    }
+
+    &:nth-child(3) {
+      background-image: url(../assets/eventos.png);
+    }
+
+    &:nth-child(4) {
+      background-image: url(../assets/ventas.png);
+    }
+
+    &:nth-child(5) {
+      background-image: url(../assets/historial.png);
+    }
+
+    &:nth-child(6) {
+      background-image: url(../assets/configuracion.png);
+    }
+  }
+}

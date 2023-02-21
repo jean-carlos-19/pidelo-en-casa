@@ -1,0 +1,23 @@
+.lista {
+  width: 100%;
+  background-color: var(--col-blanco);
+  @include display-flex(row, center, center);
+
+  & > * + * {
+    margin-left: 1rem; /* 16 / 16 */
+  }
+
+  .opcion {
+    padding: 1.125rem 2rem; /* 18 / 16 , 32 / 16 */
+    border-radius: 22.5rem; /* 360 / 16 */
+    background-color: var(--col-fon-primario);
+  }
+
+  .opcion--activado {
+    background-color: var(--col-primario);
+
+    .subtitulo {
+      color: var(--col-neu-05);
+    }
+  }
+}

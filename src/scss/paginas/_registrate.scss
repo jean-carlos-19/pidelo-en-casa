@@ -1,0 +1,14 @@
+#registrate {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 90rem; /* 1440 / 16 */
+  max-height: 64rem; /* 1024 / 16 */
+  @include display-flex(row, flex-start, stretch);
+  .formulario-registrate {
+    a {
+      position: absolute;
+      top: 1rem; /* 16 / 16 */
+      left: 1rem; /* 16 / 16 */
+    }
+  }
+}

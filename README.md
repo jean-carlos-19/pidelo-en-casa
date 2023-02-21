@@ -5,7 +5,7 @@ __
 
 ### Previsualización :eye:
 
-![imagen](https://github.com/jean-carlos-19/pidelo-en-casa/blob/master/capturas/escritorio.png)
+![imagen](https://github.com/jean-carlos-19/pidelo-en-casa/blob/master/captura/escritorio.png)
 
 ### Demo :eyes:
 

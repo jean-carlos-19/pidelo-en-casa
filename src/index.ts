@@ -16,4 +16,5 @@ import "./assets/imagen/productos.png";
 import "./assets/imagen/salchipapa.png";
 import "./assets/imagen/servicios.png";
 import "./assets/imagen/ventas.png";
+import "./assets/iconos/piguaveSof.png";
 import "./scss/main.scss";

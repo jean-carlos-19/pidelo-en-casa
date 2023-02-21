@@ -1,6 +1,6 @@
 {
   "index.css": "auto/css/index-e7e53ce60eb9d088f641.css",
-  "index.js": "auto/js/index-4c4da8165c82902e7261.js",
+  "index.js": "auto/js/index-970e90b8f8cb8d916a7e.js",
   "inicia_sesion.js": "auto/js/inicia_sesion-e4f3b9f38ddaee5bd4e0.js",
   "crear_cuenta.js": "auto/js/crear_cuenta-3ef37c3fc8c446b7dfe6.js",
   "producto.js": "auto/js/producto-54e12d340dbc85943ec1.js",
@@ -29,5 +29,6 @@
   "administrador.html": "auto/administrador.html",
   "assets/check.svg": "auto/assets/check.svg",
   "assets/editar.svg": "auto/assets/editar.svg",
+  "assets/piguaveSof.png": "auto/assets/piguaveSof.png",
   "assets/retroceder.svg": "auto/assets/retroceder.svg"
 }

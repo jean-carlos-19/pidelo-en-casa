@@ -34,6 +34,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ 2198:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "assets/piguaveSof.png");
+
+/***/ }),
+
 /***/ 2003:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -251,6 +259,7 @@ __webpack_require__(3379);
 __webpack_require__(6802);
 __webpack_require__(4374);
 __webpack_require__(4032);
+__webpack_require__(2198);
 __webpack_require__(8253);
 
 }();
